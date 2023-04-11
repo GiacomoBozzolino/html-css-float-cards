@@ -15,7 +15,8 @@ body{
 
 h1{
     text-align: center;
-    color: red;   
+    color: rgb(255, 0, 102);   
+    margin-top: 30px;
 }
 
 p{
@@ -40,6 +41,8 @@ p{
     background-color: rgb(1, 1, 25);
     margin: 10px;
     height: 100px;
+    box-shadow:  0px 5px 15px rgba(64, 64, 64, 0.35);
+        
     
 }
 .column{
@@ -52,7 +55,22 @@ p{
     float: left;
     height: 100px;
     margin-right: 10px;
+    
 }
+
 /* FINE CLASSI RIGHE/COLONNE */
 
-/* CLASSI FORMATTAZIONE TESTO */
+/* CLASSI FORMATTAZIONE TESTO CARDS*/
+h2{
+    font-size:19px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.content div{
+    padding-bottom: 5px;
+}
+
+.mail-contact{
+    color: aqua;
+}
