@@ -6,7 +6,7 @@
 
 .container{
     margin:0 auto;
-    width: 70%;   
+    max-width: 1170px;   
 }
 
 h1{
@@ -15,5 +15,27 @@ h1{
 }
 
 .row{
-    background-color: blue;
+    background-color: yellow;
+    width: 100%;
 }
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.content{
+    background-color: blue;
+    
+}
+
+.column{
+    float:left;
+    width: calc(100% / 3);
+    
+}
+img{
+    float: left;
+}
+
