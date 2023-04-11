@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Fredoka', sans-serif;
+    color: white;
+}
 .container{
     margin:0 auto;
     max-width: 1170px;   
@@ -11,12 +15,19 @@
 
 h1{
     text-align: center;
-    color: blueviolet;
+    color: red;   
 }
 
+p{
+    text-align: center;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+/* INIZIO CLASSI RIGHE/COLONNE */
 .row{
-    background-color: yellow;
     width: 100%;
+    margin: 2em;
 }
 
 .row::after {
@@ -26,16 +37,22 @@ h1{
   }
 
 .content{
-    background-color: blue;
+    background-color: rgb(1, 1, 25);
+    margin: 10px;
+    height: 100px;
     
 }
-
 .column{
     float:left;
-    width: calc(100% / 3);
+    width: calc(100% / 3  - 20px);
+    padding: 10px
     
 }
-img{
+.content img{
     float: left;
+    height: 100px;
+    margin-right: 10px;
 }
+/* FINE CLASSI RIGHE/COLONNE */
 
+/* CLASSI FORMATTAZIONE TESTO */
